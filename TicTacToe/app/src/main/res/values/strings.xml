@@ -16,4 +16,6 @@
     <string name="welcome_to_hard"> Hardcore Mode</string>
     <string name="give_up">Give Up</string>
     <string name="goto_main">Go To Main Menu</string>
+    <string name="epic_4x4_tic_tac_toe">Epic 4x4 Tic Tac Toe</string>
+    <string name="play">Play</string>
 </resources>

@@ -17,9 +17,10 @@ public class PlayScreen extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_play_screen);
-
+        Toast.makeText(this, "You are playing Easy 3x3", Toast.LENGTH_SHORT).show();
         initBoard();
         setBoardBtnListeners();
 

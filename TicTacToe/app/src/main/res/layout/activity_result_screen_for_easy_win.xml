@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ResultScreen"
+    tools:context=".ResultScreenForEasyWin"
     android:background="@drawable/empty_theme"
     >
 
@@ -21,8 +21,9 @@
         app:layout_constraintVertical_bias="0.16"
         />
 
+
     <Button
-        android:id="@+id/play_again_btn"
+        android:id="@+id/play_again_btn_4x4_easy"
         android:layout_width="172dp"
         android:layout_height="46dp"
         android:layout_marginBottom="96dp"
@@ -34,7 +35,7 @@
         app:layout_constraintRight_toRightOf="parent" />
 
     <Button
-        android:id="@+id/exit_btn"
+        android:id="@+id/exit_btn_4x4_easy"
         android:layout_width="172dp"
         android:layout_height="46dp"
         android:layout_marginBottom="16dp"
@@ -44,6 +45,5 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

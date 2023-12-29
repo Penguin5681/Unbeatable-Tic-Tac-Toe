@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".PlayScreen"
-    android:background="@color/turquoise"
+    android:background="@drawable/empty_theme"
     >
 
     <ImageView
@@ -20,21 +20,6 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
-
-    <TextView
-        android:layout_width="235dp"
-        android:layout_height="77dp"
-        android:gravity="center"
-        android:text="@string/epic_tic_tac_toe"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="25sp"
-        android:textStyle="bold|italic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/play_again_btn"
@@ -74,7 +59,7 @@
         android:background="@android:color/transparent"
         android:text=""
         android:textSize="40sp"
-        android:textColor="@color/white"
+        android:textColor="@color/yellow"
         />
 
     <!-- Row 1 Box(0, 1)-->
@@ -91,7 +76,7 @@
         android:background="@android:color/transparent"
         android:text=""
         android:textSize="40sp"
-        android:textColor="@color/white"
+        android:textColor="@color/yellow"
         />
 
     <!-- Row 1: Box(0, 2)-->
@@ -108,7 +93,7 @@
         android:background="@android:color/transparent"
         android:text=""
         android:textSize="40sp"
-        android:textColor="@color/white" />
+        android:textColor="@color/yellow" />
 
     <!-- Row 2: Box(1, 0)-->
     <Button
@@ -124,7 +109,7 @@
         android:background="@android:color/transparent"
         android:text=""
         android:textSize="40sp"
-        android:textColor="@color/white"
+        android:textColor="@color/yellow"
         />
 
     <!-- Row 2: Box(1, 1)-->
@@ -141,7 +126,7 @@
         android:background="@android:color/transparent"
         android:text=""
         android:textSize="40sp"
-        android:textColor="@color/white"
+        android:textColor="@color/yellow"
         />
 
     <!-- Row 2: Box(1, 2)-->
@@ -158,7 +143,7 @@
         android:background="@android:color/transparent"
         android:text=""
         android:textSize="40sp"
-        android:textColor="@color/white"
+        android:textColor="@color/yellow"
         />
 
     <!-- Row 3: Box(2, 0) -->
@@ -175,7 +160,7 @@
         android:background="@android:color/transparent"
         android:text=""
         android:textSize="40sp"
-        android:textColor="@color/white" />
+        android:textColor="@color/yellow" />
 
     <!-- Row 3: Box(2, 1) -->
     <Button
@@ -191,7 +176,7 @@
         android:background="@android:color/transparent"
         android:text=""
         android:textSize="40sp"
-        android:textColor="@color/white"
+        android:textColor="@color/yellow"
         />
 
     <!-- Row 3: Box(2, 2) -->
@@ -208,7 +193,7 @@
         android:background="@android:color/transparent"
         android:text=""
         android:textSize="40sp"
-        android:textColor="@color/white"
+        android:textColor="@color/yellow"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
